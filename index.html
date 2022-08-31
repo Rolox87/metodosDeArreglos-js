@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Todo-List-JavaScript</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>TODO LIST</h1>
+      <div class="input-group">
+        <input
+          type="text"
+          id="input"
+          placeholder="Escribe una tarea"
+          autofocus
+        />
+        <button id="add-task">Agregar</button>
+      </div>
+      <div class="resume">
+        <p>Total: <span id="total">0</span></p>
+        <p>Realizadas: <span id="done">0</span></p>
+      </div>
+      <ul id="task-list"></ul>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6b8f0c7049.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
